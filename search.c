@@ -1,4 +1,5 @@
 #include "graph.h"
+
 #include "search.h"
 
 int visited[MAXV];						//全局数组
@@ -140,3 +141,7 @@ void Dijkstra(MatGraph g,int v) //Dijkstra算法
     Dispath(g,dist,path,S,v);
 }
 
+char* shorttestPath(int u, int v, char algorithm[], char name[])
+{
+
+}
